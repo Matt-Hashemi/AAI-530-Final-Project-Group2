@@ -1,7 +1,14 @@
-# Core libraries
+# Core data libraries
 pandas>=1.4.0
 numpy>=1.21.0
+
+# Visualization
 matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
 
 # Utilities
 requests>=2.27.0
