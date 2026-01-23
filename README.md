@@ -1,14 +1,17 @@
-# AAI-530-Final-Project-Group2
-Predictive Maintenance for Industrial IoT Systems
+# **AAI-530 Final Project - Group2 – Predictive Maintenance for Industrial IoT Systems**  
+**Shiley-Marcos School of Engineering – University of San Diego**  
+**Master of Applied Artificial Intelligence – Spring 2025**  
 
-
-## Prerequisites
-
-- Python 3.11.7
+## **Team Members**
+- **Dina Othman**  
+- **Saman Tavasoli**
+- **Matt Hashemi**  
 
 ---
 
 ## Setup Instructions
+
+**Prerequisites: Python 3.11.7**
 
 1. **Create a virtual environment (optional but recommended)**  
    Create a virtual environment to manage dependencies:
@@ -25,11 +28,6 @@ Predictive Maintenance for Industrial IoT Systems
    Use the `requirements.txt` file to install the required packages:
    ```bash
    pip install -r requirements.txt
-   ```
-   or
-   
-   ```bash
-   pip install --force-reinstall --no-cache-dir -r requirements.txt
    ```
 
 5. **To deactivate the virtual environment, run:**
