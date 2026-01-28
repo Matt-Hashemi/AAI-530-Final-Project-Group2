@@ -13,26 +13,22 @@
 
 **Prerequisites: Python 3.11.7**
 
-1. **Create a virtual environment (optional but recommended)**  
-   Create a virtual environment to manage dependencies:
+1. **Create a virtual environment**  
    ```bash
    python3.11 -m venv env
    ```
 
-   Activate the environment on macOS/Linux:
+2. **Activate the environment on macOS/Linux**
    ```bash
    source env/bin/activate
    ```
 
 3. **Install the dependencies**  
-   Use the `requirements.txt` file to install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
 5. **To deactivate the virtual environment, run:**
-
    ```bash
    deactivate
    ```
----
