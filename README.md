@@ -148,6 +148,16 @@ Generated outputs are stored in the `/outputs` directory.
 
 ---
 
+## Full Project PDF
+
+For convenience, all notebooks (including outputs, visualizations, and results) have been compiled into a single document:
+
+**AAI530-Group2-Final-Project-Predictive-Maintenance-Full-Version.pdf**
+
+This PDF provides a complete, sequential view of the entire project and is the recommended file for grading.
+
+---
+
 # Setup Instructions
 
 **Prerequisites:** Python 3.11.7
