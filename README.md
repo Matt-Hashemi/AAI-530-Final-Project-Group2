@@ -139,6 +139,40 @@ Generated outputs are stored in the `/outputs` directory.
 
 ---
 
+# Tableau Dashboard – Deployment Evaluation
+
+To simulate a realistic Industrial IoT deployment workflow, exported prediction files were visualized using **Tableau Public**.
+
+The dashboard provides an operational comparison of:
+
+- Traditional ML vs LSTM performance
+- Deployment-style accuracy evaluation
+- Predicted failure counts
+- Risk probability trends over degradation progression
+
+### Deployment Context
+
+Unlike internal notebook validation, the Tableau dashboard evaluates:
+
+- Exported prediction probabilities
+- Fixed classification threshold (0.5)
+- Sequential operational behavior
+
+This reflects how the models would behave in a simulated production environment.
+
+### Deployment Accuracy
+
+- Traditional Model: **22.16%**
+- LSTM Model: **56.89%**
+
+(Note: These deployment metrics differ from internal validation results due to thresholding and class imbalance (~3.39% failure rate).)
+
+### Tableau Public Link
+
+https://public.tableau.com/app/profile/saman.tavasoli/viz/LSTM_vs_Traditional_Predictive_Maintenance/Dashboard14
+
+---
+
 # Important Notes
 
 - All train/test splits are **time-ordered** to prevent data leakage.
